@@ -1,5 +1,5 @@
 // REQUIRES CONSTRUCTOR FILE
-const Employee = require('../Lib/Engineer');
+const Engineer = require('../Lib/Engineer');
 
 
 // creates the Engineer object  
