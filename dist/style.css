@@ -1,0 +1,57 @@
+lines (47 sloc) 848 Bytes
+/* Global Classes */
+body {
+    background : blue;
+    height: 100vh;
+    background-size: cover;
+    min-width: 1024px;
+    height: max-content;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+h3 {
+    font-size: 26px;
+    margin: 10px;
+}
+
+h4 {
+    font-size: 22px;
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+/* Helper Classes */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#navbar-text {
+    font-size: 10px;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.card-header {
+    background-color: lightgray;
+}
+
+.material-icons {
+    font-size: 40px;
+}
+
+.card.small {
+    height: 300px;
+    width: 340px;
+    font-size: 16px;
+}

@@ -18,6 +18,6 @@
   "homepage": "https://github.com/Cmiller1517/Module-10-Team-Profile-Generator#readme",
   "keywords": [],
   "dependencies": {
-    "inquirer": "^9.1.4"
+    "inquirer": "^9.1.5"
   }
 }
