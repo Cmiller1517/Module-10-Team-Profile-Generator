@@ -137,7 +137,7 @@ const writeFile = data => {
 const initApp = () => {
     addManager()
         .then(addEmployee)
-        .then(teamProfile => { 
+        .then(team => { 
             return pageHTML(team);
 
     })
