@@ -2,10 +2,10 @@ const inquirer = require("inquirer")
 const fs = require("fs")
 
 // ------ TEAM MEMBER PROFILES-----//
-const Manager = require("./Tests/Manager.test");
-const Engineer = require("./Tests/engineer.test");
-const Intern = require("./Tests/Intern.test");
-const Employee = require("./Tests/employee.tests");
+const Manager = require("./Lib/Manager");
+const Engineer = require("./Lib/Engineer");
+const Intern = require("./Lib/Intern");
+const Employee = require("./Lib/Employee");
 
 // --- Generates the HTML based on input- -//
 const generateHTML = require("./src/generateHTML");
